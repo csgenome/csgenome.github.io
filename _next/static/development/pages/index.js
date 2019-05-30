@@ -7501,7 +7501,7 @@ function createChainedFunction() {
 /*!***********************************************************!*\
   !*** ./node_modules/@material-ui/core/esm/utils/index.js ***!
   \***********************************************************/
-/*! exports provided: deprecatedPropType, capitalize, createChainedFunction, requirePropFactory, ownerDocument, ownerWindow, unsupportedProp, withForwardedRef, isMuiElement, setRef, useForkRef */
+/*! exports provided: deprecatedPropType, capitalize, createChainedFunction, isMuiElement, setRef, useForkRef, requirePropFactory, ownerDocument, ownerWindow, unsupportedProp, withForwardedRef */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -24724,7 +24724,7 @@ function Album() {
       lineNumber: 61
     },
     __self: this
-  }, "This example combines the", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, "This example combines the", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
     href: "https://github.com/mui-org/material-ui/tree/master/docs/src/pages/getting-started/page-layout-examples/album",
     color: "secondary",
     __source: {
@@ -24732,7 +24732,7 @@ function Album() {
       lineNumber: 68
     },
     __self: this
-  }, "Album Layout"), " ", "and the example for", " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, "Album Layout"), ' ', "and the example for", ' ', react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
     href: "https://github.com/mui-org/material-ui/tree/master/examples/nextjs",
     color: "secondary",
     __source: {
@@ -24740,11 +24740,35 @@ function Album() {
       lineNumber: 75
     },
     __self: this
-  }, "Material-UI with Next.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classes.heroButtons,
+  }, "Material-UI with Next.js")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    variant: "h5",
+    align: "center",
+    color: "textSecondary",
+    paragraph: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 82
+    },
+    __self: this
+  }, "Click on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    href: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "About"), " and ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    href: "/vistest1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "VIS TEST 1"), " below."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: classes.heroButtons,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -24753,21 +24777,21 @@ function Album() {
     justify: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83
+      lineNumber: 91
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__["default"], {
     item: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 92
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
     href: "/about",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 93
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -24775,14 +24799,21 @@ function Album() {
     color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 94
     },
     __self: this
   }, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__["default"], {
     item: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 99
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Link__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    href: "/vistest1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -24790,15 +24821,15 @@ function Album() {
     color: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92
+      lineNumber: 101
     },
     __self: this
-  }, "Secondary action")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, "Vis Test 1"))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Container__WEBPACK_IMPORTED_MODULE_9__["default"], {
     className: classes.cardGrid,
     maxWidth: "md",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 111
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Grid__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -24806,7 +24837,7 @@ function Album() {
     spacing: 4,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 112
     },
     __self: this
   }, cards.map(function (card) {
@@ -24818,14 +24849,14 @@ function Album() {
       md: 4,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 104
+        lineNumber: 114
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Card__WEBPACK_IMPORTED_MODULE_2__["default"], {
       className: classes.card,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 105
+        lineNumber: 115
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CardMedia__WEBPACK_IMPORTED_MODULE_5__["default"], {
@@ -24834,14 +24865,14 @@ function Album() {
       title: "Image title",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 106
+        lineNumber: 116
       },
       __self: this
     }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CardContent__WEBPACK_IMPORTED_MODULE_4__["default"], {
       className: classes.cardContent,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 111
+        lineNumber: 121
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7__["default"], {
@@ -24850,19 +24881,19 @@ function Album() {
       component: "h2",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 112
+        lineNumber: 122
       },
       __self: this
     }, "Heading ", card), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 115
+        lineNumber: 125
       },
       __self: this
     }, "This is a media card. You can use this section to describe the content.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_CardActions__WEBPACK_IMPORTED_MODULE_3__["default"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 120
+        lineNumber: 130
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -24870,7 +24901,7 @@ function Album() {
       color: "primary",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 121
+        lineNumber: 131
       },
       __self: this
     }, "View"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -24878,7 +24909,7 @@ function Album() {
       color: "primary",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 124
+        lineNumber: 134
       },
       __self: this
     }, "Edit"))));
@@ -25113,7 +25144,7 @@ function Album(_ref) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!**************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fgback%2Fcsgenome%2Fpages%2Findex.js ***!
   \**************************************************************************************************************/
@@ -25136,5 +25167,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
